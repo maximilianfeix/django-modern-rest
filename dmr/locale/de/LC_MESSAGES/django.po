@@ -1,0 +1,124 @@
+# German translation for django-modern-rest.
+# Copyright (C) 2026, wemake.services
+# This file is distributed under the same license as django-modern-rest.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: django-modern-rest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-28 19:05+0200\n"
+"PO-Revision-Date: 2026-09-28 19:05+0200\n"
+"Last-Translator: maximilianfeix\n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, python-brace-format
+msgid ""
+"Path {cls} with field_model={field_model} does not allow unnamed path "
+"parameters args={args}"
+msgstr ""
+"Path {cls} mit field_model={field_model} erlaubt keine unbenannten "
+"Pfadparameter args={args}"
+
+#, python-brace-format
+msgid ""
+"Trying to parse files with {parser_name} that does not support "
+"SupportsFileParsing protocol"
+msgstr ""
+"Dateien sollen mit {parser_name} geparst werden, der das Protokoll "
+"SupportsFileParsing nicht unterstützt"
+
+#, python-brace-format
+msgid "Method {method} is not allowed, allowed: {allowed}"
+msgstr "Methode {method} ist nicht erlaubt, erlaubt: {allowed}"
+
+msgid "Not authenticated"
+msgstr "Nicht authentifiziert"
+
+msgid "Too many requests"
+msgstr "Zu viele Anfragen"
+
+msgid "Internal server error"
+msgstr "Interner Serverfehler"
+
+msgid ""
+"HTTP requests with the 'application/x-www-form-urlencoded' content type must "
+"be UTF-8 encoded."
+msgstr ""
+"HTTP-Anfragen mit dem Content-Type 'application/x-www-form-urlencoded' "
+"müssen UTF-8-kodiert sein."
+
+#, python-brace-format
+msgid ""
+"Negotiated renderer {renderer_type} does not match returned content-type "
+"{content_type}"
+msgstr ""
+"Der ausgehandelte Renderer {renderer_type} passt nicht zum zurückgegebenen "
+"Content-Type {content_type}"
+
+#, python-brace-format
+msgid ""
+"Cannot serialize response body with accepted types {accepted_types}, "
+"supported={supported}"
+msgstr ""
+"Antwort-Body kann mit den akzeptierten Typen {accepted_types} nicht "
+"serialisiert werden, unterstützt={supported}"
+
+#, python-brace-format
+msgid ""
+"Cannot parse request body with content type {content_type}, "
+"expected={expected}"
+msgstr ""
+"Anfrage-Body mit Content-Type {content_type} kann nicht geparst werden, "
+"erwartet={expected}"
+
+msgid "Invalid cursor"
+msgstr "Ungültiger Cursor"
+
+#, python-brace-format
+msgid "CSRF Failed: {reason}"
+msgstr "CSRF-Prüfung fehlgeschlagen: {reason}"
+
+msgid "CSRF Failed."
+msgstr "CSRF-Prüfung fehlgeschlagen."
+
+msgid "BlocklistedJWToken"
+msgstr "Gesperrtes JWT-Token"
+
+msgid "BlocklistedJWTokens"
+msgstr "Gesperrte JWT-Tokens"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Token hash"
+msgstr "Token-Hash"
+
+msgid "Expires at"
+msgstr "Läuft ab am"
+
+msgid "Revoked at"
+msgstr "Widerrufen am"
+
+msgid "Last used at"
+msgstr "Zuletzt verwendet am"
+
+msgid "Created at"
+msgstr "Erstellt am"
+
+msgid "Updated at"
+msgstr "Aktualisiert am"
+
+msgid "Token"
+msgstr "Token"
+
+msgid "Tokens"
+msgstr "Tokens"
+
+#, python-brace-format
+msgid "Value {value} of type {type} is not supported for {target_type}"
+msgstr "Wert {value} vom Typ {type} wird für {target_type} nicht unterstützt"
